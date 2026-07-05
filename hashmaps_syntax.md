@@ -32,6 +32,7 @@ return map1.equals(map2);
 ## Getting all Keys
 ```java
 map.keySet()
+map.keySet().toArray() // converts to array for indexing access
 ```
 
 ## Getting all Values

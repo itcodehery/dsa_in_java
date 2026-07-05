@@ -42,3 +42,13 @@ return new ArrayList<>(collection_var);
 
 // ex: return new ArrayList<>(maps.values());
 ```
+
+## Converting Set/Anything to ArrayList
+```java
+// Get the array of the elements
+// of the ArrayList
+// using toArray(T[]) method
+Integer arr[] = new Integer[ArrLis.size()];
+arr = ArrLis.toArray(arr);
+System.out.println(" Elements of ArrayList " + Arrays.toString(arr));
+```
