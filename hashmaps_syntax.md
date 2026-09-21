@@ -4,7 +4,7 @@
 ```java
 public static void main(String[] args) {
     HashMap<Integer, Integer> hmap = new HashMap<>();
-    hmap.put(key, map.getOrDefault(key, 0) + 1);        // frequency counter
+    hmap.put(key, hmap.getOrDefault(key, 0) + 1);        // frequency counter
 }
 ```
 
@@ -32,7 +32,7 @@ return map1.equals(map2);
 ## Getting all Keys
 ```java
 map.keySet()
-map.keySet().toArray() // converts to array for indexing access
+map.keySet().asArray() // converts to array
 ```
 
 ## Getting all Values
