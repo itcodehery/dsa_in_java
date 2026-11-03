@@ -6,6 +6,7 @@ How do we get input from the user?
 Scanner sc = new Scanner(System.in);
 
 String s = sc.nextLine();
+int s = sc.nextInt();
 ```
 
 A more idiomatic way would be to use a `BufferedReader`
@@ -18,7 +19,7 @@ String line = reader.readLine(); // reads just the first line
 ## Output
 ```java
 System.out.println();
-
+// or
 System.out.write();
 ```
 
